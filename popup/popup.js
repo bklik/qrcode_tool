@@ -1,8 +1,9 @@
 function generateQRCode(url) {
     const urlElement = document.getElementById('url');
+    const urlText = document.createTextNode(url);
     const qrCodeElement = document.getElementById('qrcode');
 
-    urlElement.innerHTML = url;
+    urlElement.append(urlText);
 
     new QRCode(qrCodeElement, {
         text: url,

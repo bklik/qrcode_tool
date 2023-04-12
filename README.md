@@ -19,13 +19,14 @@ If you want get this extension to work on your local environment, follow these s
 
 These instruction build the zip file for deploying this tool to the Firefox Add-on market.
 
-```
+```shell
 npm run build
+
+# dist/qrcode_tool.zip
+# dist/source.zip
 ```
 
 _Note: If you are on Windows, you will need to run this in WSL, since it executes Linux shell commands. You will also need the 'zip' tool installed._
-
-This command will build the zip file to: `dist/qrcode_tool.zip`
 
 ## Browser Compatibility
 

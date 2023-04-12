@@ -5,6 +5,6 @@
     },
     "scripts": {
         "format": "prettier --write \"**/*.{js,css,html,json}\"",
-        "build": "rm -rf dist/ && mkdir dist && zip -r ./dist/qrcode_tool.zip package.json popup/ tab/ icons/"
+        "build": "rm -rf dist/ && mkdir dist && zip -r ./dist/qrcode_tool.zip manifest.json background.js popup/ tab/ icons/ && zip -r ./dist/source.zip ./ -x \"node_modules/*\" \".git/*\" \"dist/*\""
     }
 }

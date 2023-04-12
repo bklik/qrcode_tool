@@ -2,9 +2,10 @@
     const urlParams = new URLSearchParams(window.location.search);
     const url = urlParams.get('url');
     const headerElement = document.getElementById('header');
+    const headerText = document.createTextNode(url);
     const qrCodeElement = document.getElementById('qrcode');
 
-    headerElement.innerHTML = url;
+    headerElement.append(headerText);
 
     new QRCode(qrCodeElement, {
         text: url,
