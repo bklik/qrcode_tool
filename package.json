@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "prettier": "^2.8.7",
+        "qrcodejs": "^1.0.0"
+    },
+    "scripts": {
+        "format": "prettier --write \"**/*.{js,css,html,json}\"",
+        "build": "rm -rf dist/ && mkdir dist && zip -r ./dist/qrcode_tool.zip package.json popup/ tab/ icons/"
+    }
+}

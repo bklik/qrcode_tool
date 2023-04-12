@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "QR Code Tool",
+    "version": "1.0",
+    "description": "Converts the Text and URLs to QR codes",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "permissions": ["activeTab", "contextMenus"],
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}

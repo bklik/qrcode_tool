@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    align-items: center;
+    background-color: #cdd2d6;
+    display: grid;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
+#header {
+    margin: 0 0 2rem 0;
+}
+
+#qrcode {
+    justify-self: center;
+}

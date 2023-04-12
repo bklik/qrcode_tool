@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    align-items: center;
+    display: grid;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+#url {
+    margin: 0 0 1rem 0;
+}
+
+#qrcode {
+    height: 256px;
+    margin: 1rem;
+}
