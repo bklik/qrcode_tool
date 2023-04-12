@@ -6,6 +6,13 @@ A simple web extension that helps the user generate QR Codes for quick, off-line
 -   Web page links
 -   Highlighted text
 
+## Local Environment Prerequisites
+
+-   NodeJS/NPM
+-   Linux Shell (Windows WSL)
+    -   zip
+-   Visual Studio Code
+
 ## Preparing Local Environment
 
 If you want get this extension to work on your local environment, follow these steps:
