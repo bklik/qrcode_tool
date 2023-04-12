@@ -17,7 +17,7 @@ If you want get this extension to work on your local environment, follow these s
 
 ## Building the Project
 
-These instruction build the zip file for deploying this tool to the Firefox Add-on market.
+Instructions for building the zip files for deploying this tool to the Firefox Add-on market.
 
 ```shell
 npm run build
